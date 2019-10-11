@@ -1,5 +1,7 @@
 title: $:/plugins/OokTech/ServerImages/readme
 
+''THIS IS BEING MOVED INTO BOB''
+
 This changes the behaviour of a wiki when an image or other media file is being
 imported so that instead of being imported and stored in the wiki as a base64
 encoded tiddler the file is instead saved by the server and a _canonical_uri
