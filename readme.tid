@@ -1,0 +1,23 @@
+title: $:/plugins/OokTech/ServerImages/readme
+
+This changes the behaviour of a wiki when an image or other media file is being
+imported so that instead of being imported and stored in the wiki as a base64
+encoded tiddler the file is instead saved by the server and a _canonical_uri
+tiddler is created for it.
+
+The tiddler types that this works with are:
+
+* `image/gif`
+* `image/x-icon`
+* `image/jpeg`
+* `image/jpeg`
+* `image/png`
+* `image/svg+xml`
+* `application/pdf`
+* `application/zip`
+* `application/font-woff`
+* `application/x-font-ttf`
+* `audio/ogg`
+* `video/mp4`
+* `audio/mp3`
+* `audio/mp4`

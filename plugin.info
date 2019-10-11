@@ -1,0 +1,10 @@
+{
+  "title": "$:/plugins/OokTech/ServerImages",
+  "description": "A widget that saves images on a server and creates _canonical_uri tiddlers instead of adding the images as tiddlers",
+  "author": "inmysocks",
+  "version": "0.0.2",
+  "core-version": ">=5.1.8",
+  "source": "",
+  "plugin-type": "plugin",
+  "list": "readme"
+}

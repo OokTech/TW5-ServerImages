@@ -1,0 +1,17 @@
+!Changelog
+
+!!Version 0.0.2
+
+* Added support for external servers
+** The wiki name is now send as an http header so credentials can be checked
+   before allowing the upload to proceed.
+** Still no support for the normal tiddlywiki server, but we are working on it
+
+!!Version 0.0.1
+
+* First Version
+* If an imported tiddler fits one of the mime types known by tiddlywiki that
+  are converted into base64 than instead of importing the file as a tiddler it
+  is uploaded to the server and a _canonical_uri tiddler pointing to the file
+  is created instead.
+* Only works with Bob-based wiki servers
